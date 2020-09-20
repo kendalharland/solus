@@ -1,5 +1,5 @@
 [Unit]
-Description=Automated backups.
+Description=Automated backup.
 WantedBy=multi-user.target
 
 [Service]
