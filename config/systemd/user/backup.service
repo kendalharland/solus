@@ -1,0 +1,7 @@
+[Unit]
+Description=Automated backups.
+WantedBy=multi-user.target
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/%u/bin/backup.sh
